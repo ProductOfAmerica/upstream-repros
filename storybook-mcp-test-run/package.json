@@ -1,0 +1,8 @@
+{
+  "name": "storybook-mcp-test-run-repro",
+  "private": true,
+  "scripts": {
+    "storybook": "pnpm --filter web storybook",
+    "mcp": "node scripts/mcp.mjs"
+  }
+}

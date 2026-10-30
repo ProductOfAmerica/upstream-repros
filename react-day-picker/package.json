@@ -1,0 +1,21 @@
+{
+  "name": "react-day-picker-label-in-name-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5181",
+    "check": "node check.mjs"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "playwright": "^1.64.1",
+    "react": "^19.3.1",
+    "react-day-picker": "^10.0.2",
+    "react-dom": "^19.3.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}

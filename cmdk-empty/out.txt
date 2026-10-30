@@ -1,0 +1,75 @@
+
+=== base
+violations: 1  incomplete: 0
+  VIOLATION #radix-_r_0_
+    Fix any of the following:
+      Required ARIA children role not present: group, option
+listbox html: <div cmdk-list="" role="listbox" tabindex="-1" aria-label="Suggestions" id="radix-_r_0_" style="--cmdk-list-height: 18.0px;"><div cmdk-list-sizer=""><div cmdk-empty="" role="presentation">No results.</div></div></div>
+axe-core 4.14.0
+
+=== no-empty
+violations: 0  incomplete: 1
+  incomplete #radix-_r_0_
+    Fix any of the following:
+      Expecting ARIA children role to be added: group, option
+listbox html: <div cmdk-list="" role="listbox" tabindex="-1" aria-label="Suggestions" id="radix-_r_0_" style="--cmdk-list-height: 0.0px;"><div cmdk-list-sizer=""></div></div>
+
+=== group
+violations: 1  incomplete: 0
+  VIOLATION #radix-_r_0_
+    Fix any of the following:
+      Required ARIA children role not present: group, option
+listbox html: <div cmdk-list="" role="listbox" tabindex="-1" aria-label="Suggestions" id="radix-_r_0_" style="--cmdk-list-height: 18.0px;"><div cmdk-list-sizer=""><div cmdk-empty="" role="presentation">No results.</div><div cmdk-group="" role="presentation" data-value="Fruit" hidden=""><div cmdk-group-heading="" aria-hidden="true" id="radix-_r_4_">Fruit</div><div cmdk-group-items="" role="group" aria-labelledby="radix-_r_4_"></div></div></div></div>
+
+=== has-match
+violations: 0  incomplete: 0
+listbox html: <div cmdk-list="" role="listbox" tabindex="-1" aria-label="Suggestions" id="radix-_r_0_" style="--cmdk-list-height: 18.0px;"><div cmdk-list-sizer=""><div id="radix-_r_3_" cmdk-item="" role="option" aria-disabled="false" aria-selected="true" data-disabled="false" data-selected="true" data-value="Apple">Apple</div></div></div>
+
+=== empty-only
+violations: 1  incomplete: 0
+  VIOLATION #radix-_r_0_
+    Fix any of the following:
+      Required ARIA children role not present: group, option
+listbox html: <div cmdk-list="" role="listbox" tabindex="-1" aria-label="Suggestions" id="radix-_r_0_" style="--cmdk-list-height: 18.0px;"><div cmdk-list-sizer=""><div cmdk-empty="" role="presentation">No results.</div></div></div>
+
+=== empty-outside-list
+violations: 0  incomplete: 1
+  incomplete #radix-_r_0_
+    Fix any of the following:
+      Expecting ARIA children role to be added: group, option
+listbox html: <div cmdk-list="" role="listbox" tabindex="-1" aria-label="Suggestions" id="radix-_r_0_" style="--cmdk-list-height: 0.0px;"><div cmdk-list-sizer=""></div></div>
+
+=== plain-empty-listbox
+violations: 0  incomplete: 1
+  incomplete div[role="listbox"]
+    Fix any of the following:
+      Expecting ARIA children role to be added: group, option
+listbox html: <div role="listbox" aria-label="x"></div>
+
+=== plain-sizer
+violations: 0  incomplete: 1
+  incomplete div[role="listbox"]
+    Fix any of the following:
+      Expecting ARIA children role to be added: group, option
+listbox html: <div role="listbox" aria-label="x"><div></div></div>
+
+=== plain-sizer-text
+violations: 1  incomplete: 0
+  VIOLATION div[role="listbox"]
+    Fix any of the following:
+      Required ARIA children role not present: group, option
+listbox html: <div role="listbox" aria-label="x"><div>No results.</div></div>
+
+=== plain-sizer-presentation
+violations: 1  incomplete: 0
+  VIOLATION div[role="listbox"]
+    Fix any of the following:
+      Required ARIA children role not present: group, option
+listbox html: <div role="listbox" aria-label="x"><div><div role="presentation">No results.</div></div></div>
+
+=== plain-presentation-direct
+violations: 1  incomplete: 0
+  VIOLATION div[role="listbox"]
+    Fix any of the following:
+      Required ARIA children role not present: group, option
+listbox html: <div role="listbox" aria-label="x"><div role="presentation">No results.</div></div>

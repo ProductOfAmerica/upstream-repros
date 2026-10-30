@@ -1,0 +1,4 @@
+probe-themeprobe--expects-dark
+probe-themeprobe--expects-light
+probe-added--renders
+probe-badge--renders
