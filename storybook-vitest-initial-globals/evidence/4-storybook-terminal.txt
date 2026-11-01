@@ -1,0 +1,16 @@
+$ pnpm storybook   (its terminal after the test-run call in 3-mcp-test-run.txt; the dev server then exits)
+│  storybook/test: Error: Failed to start Vitest
+│
+│  storybook/test: Project name
+│  "storybook:<repo>/.storybook"
+│  is not unique. All projects should have unique names. Make sure your
+│  configuration is correct. Error:
+│  at resolveProjectEntries
+│  (file:///<repo>/node_modules/.pnpm/vitest@5.0.5_@vitest+browse_cd5005eed3057a61c79ec11c779db8d1/node_modules/vitest/dist/chunks/index.1TqnEahn.js:6927:10)
+│  at async resolveConfig
+│  (file:///<repo>/node_modules/.pnpm/vitest@5.0.5_@vitest+browse_cd5005eed3057a61c79ec11c779db8d1/node_modules/vitest/dist/chunks/index.1TqnEahn.js:9317:32)
+│  at async createVitest
+│  (file:///<repo>/node_modules/.pnpm/vitest@5.0.5_@vitest+browse_cd5005eed3057a61c79ec11c779db8d1/node_modules/vitest/dist/chunks/cli-api.De07GUeT.js:13392:17)
+│  at async VitestManager.startVitest
+│  (file:///<repo>/node_modules/.pnpm/@storybook+addon-vitest@10._403bad10a77a9440907bfc899044c6ed/node_modules/@storybook/addon-vitest/dist/node/vitest.js:229:21)
+ ELIFECYCLE  Command failed with exit code 1.

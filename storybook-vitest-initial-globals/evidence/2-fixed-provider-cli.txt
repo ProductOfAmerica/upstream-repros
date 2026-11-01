@@ -1,0 +1,16 @@
+$ pnpm exec vitest run --reporter=verbose
+
+ RUN  v5.0.5 <repo>
+
+stdout | src/ThemeProbe.stories.tsx > Renders
+ThemeProbe ran with theme=dark
+ ✓ |storybook-dark (chromium)| src/ThemeProbe.stories.tsx > Renders 300ms
+stdout | src/ThemeProbe.stories.tsx > Renders
+ThemeProbe ran with theme=light
+ ✓ |storybook-light (chromium)| src/ThemeProbe.stories.tsx > Renders 248ms
+
+ Test Files  2 passed (2)
+      Tests  2 passed (2)
+   Start at  01:09:34
+   Duration  2.91s (setup 44%, tests 28%, worker 26%, import 1%)
+

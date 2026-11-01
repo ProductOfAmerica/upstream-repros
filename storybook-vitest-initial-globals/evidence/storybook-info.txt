@@ -1,0 +1,25 @@
+$ pnpm exec storybook info
+Storybook Environment Info:
+
+
+System:
+OS: Windows 11 10.0.26300
+CPU: (16) x64 Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+Binaries:
+Node: 24.13.0 -
+C:\Users\<user>\AppData\Local\Volta\tools\image\node\24.13.0\node.EXE
+Yarn: 1.22.22 -
+C:\Users\<user>\AppData\Local\Volta\tools\image\node\24.13.0\yarn.CMD
+npm: 11.6.2 -
+C:\Users\<user>\AppData\Local\Volta\tools\image\node\24.13.0\npm.CMD
+pnpm: 11.25.0 -
+C:\Users\<user>\AppData\Local\Volta\tools\image\node\24.13.0\pnpm.CMD
+<----- active
+Browsers:
+Edge: Chromium (152.0.4191.53)
+npmPackages:
+@storybook/addon-mcp: 10.6.5 => 10.6.5
+@storybook/addon-vitest: 10.6.5 => 10.6.5
+@storybook/react-vite: 10.6.5 => 10.6.5
+storybook: 10.6.5 => 10.6.5
+
